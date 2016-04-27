@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -25,11 +26,21 @@
                                     <constraint firstAttribute="height" constant="300" id="tO8-0q-WQR"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OgX-Jr-dri">
+                                <rect key="frame" x="461" y="451" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.0" blue="0.097875192920000006" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="EYg-HX-DH3"/>
+                                    <constraint firstAttribute="width" constant="50" id="jwq-vE-q2U"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="0lB-zS-Sgi" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="1UC-u0-ik7"/>
                             <constraint firstItem="0lB-zS-Sgi" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="81j-Mg-Cty"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="OgX-Jr-dri" secondAttribute="bottom" constant="99" id="IUh-wn-oaP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OgX-Jr-dri" secondAttribute="trailing" constant="69" id="ycd-Bh-HkU"/>
                         </constraints>
                     </view>
                 </viewController>
