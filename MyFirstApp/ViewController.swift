@@ -12,11 +12,10 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var myLabel: UILabel!
     @IBAction func ChangeLabel(sender: AnyObject) {
-       myLabel.text="Hello World"
+        myLabel.text = "Hello World"
     }
-    
     @IBAction func unwindToTop(segue:UIStoryboardSegue){}
-
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
