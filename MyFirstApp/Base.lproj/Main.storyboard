@@ -21,7 +21,7 @@
                                 <rect key="frame" x="271" y="285" width="59" height="30"/>
                                 <state key="normal" title="Click Me"/>
                                 <connections>
-                                    <action selector="ChangeLabel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VvK-EA-0l5"/>
+                                    <action selector="ChangeLabel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3BX-oC-o69"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MyLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eWv-0z-JVI">
@@ -41,7 +41,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="eeU-kf-9rN"/>
                     <connections>
-                        <outlet property="myLabel" destination="eWv-0z-JVI" id="SjL-IF-dxr"/>
+                        <outlet property="myLabel" destination="eWv-0z-JVI" id="kIF-z6-byU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
