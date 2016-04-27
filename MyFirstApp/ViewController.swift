@@ -9,6 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var myLabel: UILabel!
+    @IBAction func ChangeLabel(sender: AnyObject) {
+       myLabel.text="Hello World"
+    }
+    
+    @IBAction func unwindToTop(segue:UIStoryboardSegue){}
 
     override func viewDidLoad() {
         super.viewDidLoad()
